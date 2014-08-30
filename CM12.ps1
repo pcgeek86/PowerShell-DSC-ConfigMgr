@@ -129,7 +129,7 @@ configuration CM12 {
                   Ensure = "Present"
                   ReturnCode = 0
                 }
-            cConfigMgr2012 PrimarySite
+            CMPrimarySite PrimarySite
                 {
                     SiteCode = "$($Node.CMSiteCode)"
                     SiteName = "$($Node.CMSiteName)"
